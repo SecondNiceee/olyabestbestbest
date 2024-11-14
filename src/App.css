@@ -5,37 +5,42 @@
 
 
 .container{
+  box-shadow: -1px 4px 8px 0px rgba(34, 60, 80, 0.5);
+  padding: 50px;
+  border-radius: 20px;
+  border: 1px solid white;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 .title{
-  font-size: 30px;
-  color: rgb(255, 255, 255);
+  font-size: 50px;
+  color: rgb(0, 0, 0);
 }
 .input{
 
   background-color: transparent;
   color: rgb(0, 0, 0);
   background-color: transparent;
-  background-color: white;
-  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
   font-size: 15px;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 10px;
   
 }
 
 .is-show{
-  font-size: 15px;
-  color: rgb(255, 255, 255);
+  font-size: 25px;
+  color: rgb(0, 255, 4);
+
 }
 .button{
-  background-color: rgb(255, 255, 255);
-  color: black;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   border : 1px solid black;
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
   cursor: pointer;
 }
 .input:hover{
@@ -54,7 +59,7 @@
 }
 
 .App-header {
-  background-color: #12045e;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
